@@ -1,0 +1,97 @@
+body{
+  background: rgb(15, 15, 27);
+  background-image: url("https://img3.goodfon.ru/wallpaper/nbig/9/9a/fon-temno-plastinka-vinil.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchMusic{
+  width: 590px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.searchBtn{
+  width: 60px;
+  height: 25px;
+  color: #000;
+  border-radius: 20px;
+}
+
+.input{
+  margin: 30px 0;
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+.addForm{
+  margin: 20px 0;
+  border-radius: 50px;
+  background-color: rgb(255, 196, 0);
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form{
+  display: none;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.342);
+}
+
+h2{
+  text-align: center;
+  color:#fff;
+}
+
+.submitBtn{
+  width: 70px;
+  background-color: rgb(255, 196, 0);
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.login, .password{
+  width: 300px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.loadBtn{
+  background-color:rgba(116, 112, 112, 0.021); 
+  border-radius: 20px;
+}
+
+.dropZone {   
+  display: none; 
+  color: #555;
+  font-size: 18px;
+  text-align: center;    
+  
+  width: 400px;
+  padding: 50px 0;
+  margin: 50px auto;
+  
+  background: rgba(0, 0, 0, 0.308);
+  border: 1px solid #000;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.dropZone.hover {
+  background: #ddd;
+  border-color: #aaa;
+}
+
+audio{
+  display: none;
+}

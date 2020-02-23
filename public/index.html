@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel ="stylesheet" href ="./style.css">
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="http://cdn-files.deezer.com/js/min/dz-v00202681.js"></script>
+
+</head>
+<body>
+    <div class ="input">
+        <input type ="text" id ="nameMusic" class ="searchMusic" placeholder="  Введите название трека">
+        <button value = ""  class="searchBtn" id="searchTrackBtn">Найти</button>
+    </div>
+    <div id="dz-root"></div>
+    <div id="player" style="width:100%;" align = "center"></div>
+    <button value ="" class ="addForm" id = "addFormBtn">Добавить песню</button>
+    <div id = "form" class = "form">
+        <h2>Вход</h2>
+        <input type = "text" class ="login" placeholder = " Логин">
+        <input type = "text" class ="password" placeholder = " Пароль">
+        <input type="submit" class = "submitBtn" id="loginBtn" value = "Войти">
+    </div>
+    <div  id= "drop-area" class ="dropZone">
+        <input id = 'your-files' class ='loadBtn' type='file' name='music' multiple accept='audio/*,audio/ogg'>
+        <br>
+        <p>Для загрузки, перетащите файл сюда</p>
+    </div>
+    <audio controls="controls">
+      <source src="track.ogg" type="audio/ogg" />
+      <source src="track.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
